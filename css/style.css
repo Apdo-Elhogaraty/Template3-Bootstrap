@@ -20,10 +20,12 @@ ul{
     flex-grow: 0;
 }
 /* carousel */
-.carousel-inner {
-height: 560px;
+@media (min-width:992px) {
+    .carousel-inner {
+        height: 560px;
+        }        
 }
- .carousel-inner img {
+.carousel-inner img {
     height: 100%;
     width: 100%;
     background-size: cover;
